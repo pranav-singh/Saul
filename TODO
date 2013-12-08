@@ -1,0 +1,8 @@
+-- Extract the list of all problem statements (classical) from the SPOJ        problem page
+-- For every problem listed, check the list of best solutions
+-- Create a dictionary with problem code as the primary key and user name as   the secondary key
+-- Flip the dictionary to {User name : { Problem Code: Value}}
+-- Take a particular user X. Call the getRecommendations function with that
+   person X. Calculate similarity with every other user. Score problems
+   which X hasn't solved.
+-- Create ranking list and return it.
